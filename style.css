@@ -255,7 +255,47 @@ p.latest-deal-desc {
 /* latest deal style end */
 
 
+/* footer style start */
+footer {
+    background: #111010;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
 
+h1.footer-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+p.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 24px 0;
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+p.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+h1.footer-title span {
+    color: #E55473;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+/* footer style end */
 
 
 
