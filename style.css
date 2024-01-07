@@ -6,12 +6,52 @@
     font-weight: normal;
 }
 
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
 
 
 
+/* header style start */
 
+header{
+      
+background: rgba(229, 84, 115, 0.10);
+}
+div#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+h1.header-content-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
 
+p.header-content-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 32px 0;
+}
 
+button.shop-now-btn {
+    background: #E55473;
+    color: #fff;
+    padding: 20px 43px;
+}
 
 
