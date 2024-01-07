@@ -139,3 +139,47 @@ p.delivery-item-desc {
 }
 
 /* delivery style end */
+
+/* hot deal style start */
+section#hot-deal-bg {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 5rem 0;
+}
+section#hot-deal-bg {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 5rem 0;
+}
+
+h1.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p.hot-deal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 24px 0;
+}
+
+button.sign-up-btn {
+    
+     /* 166.667% */
+    background: #E55473;
+    color: #fff;
+}
+
+.hot-deal {
+    max-width: 700px;
+    text-align: center;
+}
+
+.hot-deals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hot deal style end */
