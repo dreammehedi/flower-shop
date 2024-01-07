@@ -21,6 +21,8 @@ section{
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 8px;
+    background-color: #E55473;
+    color: #fff;
 }
 
 
@@ -52,8 +54,6 @@ p.header-content-desc {
 }
 
 button.shop-now-btn {
-    background: #E55473;
-    color: #fff;
     padding: 20px 43px;
 }
 
@@ -164,13 +164,6 @@ p.hot-deal-desc {
     margin: 24px 0;
 }
 
-button.sign-up-btn {
-    
-     /* 166.667% */
-    background: #E55473;
-    color: #fff;
-}
-
 .hot-deal {
     max-width: 700px;
     text-align: center;
@@ -218,5 +211,52 @@ p.instagram-desc {
 .instagram-img img {
     margin: 1rem 1rem;
 }
-
 /* instagram style end */
+
+/* latest deal style start */
+.latest-deal {
+    padding: 4rem 0;
+    text-align: center;
+    background-image: url(images/Rectangle-9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1.latest-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+p.latest-deal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.latest-deal-form input {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1rem 0 1rem 1rem;
+    width: 500px;
+    outline: none;
+    border: 1px solid transparent;
+    margin-right: 1rem;
+}
+
+.latest-deal-form {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* latest deal style end */
+
+
+
+
+
+
+
