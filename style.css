@@ -119,3 +119,23 @@ p.featured-desc {
 }
 
 /* featured style end */
+
+/* delivery style start */
+.delivery {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+p.delivery-item-desc {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px; /* 145.833% */
+}
+
+/* delivery style end */
